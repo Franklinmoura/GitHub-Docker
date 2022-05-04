@@ -1,0 +1,6 @@
+https://community.graylog.org/t/docker-compose-yml-issue/21530/2
+####### How to Create MySQL with phpMyAdmin Docker Container ####
+https://tecadmin.net/docker-compose-for-mysql-with-phpmyadmin/
+
+########## Mysql and phpmyadmin #############
+https://bidhankhatri.com.np/system/docker-compose-file-for-mysql-and-phpmyadmin/

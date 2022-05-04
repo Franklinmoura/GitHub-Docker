@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  # MongoDB: https://hub.docker.com/_/mongo/
+  mongo:
+    image: mongo
+    container_name: mongodb
+    restart: always
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME="mongo_db"
+      - MONGO_INITDB_ROOT_PASSWORD="1234MongoDb"
+    ports:
+      - 27017:27017
+    volumes:
+      - /Users/frank/Documents/GitHub-Docker/mongodb:/data/db
